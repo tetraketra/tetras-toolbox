@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "more-itertools>=8.10.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tetras-toolbox"
+version = "0.0.1"
+authors = [
+  { name="TetraKetra", email="tetra.silv@gmail.com"},
+]
+description = "My personal collection of itertools-based \"convenience\" functions. "
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tetraketra/even-more-itertools"
+"Bug Tracker" = "https://github.com/tetraketra/even-more-itertools/issues"
