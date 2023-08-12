@@ -1,7 +1,7 @@
 import itertools      as  it
 import more_itertools as mit
 import operator       as op
-from   type_t         import T
+from   ._type_t        import T
 from   typing         import Callable
 
 

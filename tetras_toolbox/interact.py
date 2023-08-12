@@ -1,5 +1,5 @@
-from   type_t         import T
-from   typing         import Callable, Collection, Iterator
+from .type_t import T
+from typing import Callable, Collection, Iterator
 
 
 def interact(collection: Collection[T], interaction_func: Callable[[T, Collection[T]], T]) -> Iterator[T]:

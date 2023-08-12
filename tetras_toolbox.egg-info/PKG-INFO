@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
-Name: tetras-even-more-itertools
-Version: 0.0.1
+Name: tetras-toolbox
+Version: 0.1.1
 Summary: My personal collection of itertools-based "convenience" functions. 
 Author-email: TetraKetra <tetra.silv@gmail.com>
-Project-URL: Homepage, https://github.com/tetraketra/even-more-itertools
-Project-URL: Bug Tracker, https://github.com/tetraketra/even-more-itertools/issues
+Project-URL: Homepage, https://github.com/tetraketra/tetras-toolbox
+Project-URL: Bug Tracker, https://github.com/tetraketra/tetras-toolbox
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
 Classifier: Operating System :: OS Independent
@@ -14,4 +14,4 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # even-more-itertools
- My personal collection of itertools-based "convenience" functions.
+ My personal collection of often-itertools-based "convenience" functions.

@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tetras-toolbox"
-version = "0.0.1"
+version = "0.1.1"
 authors = [
-  { name="TetraKetra", email="tetra.silv@gmail.com"},
+{ name="TetraKetra", email="tetra.silv@gmail.com"},
 ]
 description = "My personal collection of itertools-based \"convenience\" functions. "
 readme = "README.md"
@@ -18,6 +18,9 @@ classifiers = [
     "Intended Audience :: Developers",
 ]
 
+dependencies = ["more-itertools>=8.10.0"]
+
+
 [project.urls]
-"Homepage" = "https://github.com/tetraketra/even-more-itertools"
-"Bug Tracker" = "https://github.com/tetraketra/even-more-itertools/issues"
+"Homepage" = "https://github.com/tetraketra/tetras-toolbox"
+"Bug Tracker" = "https://github.com/tetraketra/tetras-toolbox"
