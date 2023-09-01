@@ -3,6 +3,7 @@ from typing import Callable, Collection, Iterator
 
 
 def interact(collection: Collection[T], interaction_func: Callable[[T, Collection[T]], T]) -> Iterator[T]:
+
   """
   Apply the `interaction_func` to each item in the collection `collection`, 
   where `interaction_func` generates a new item based on the current item and the
