@@ -1,4 +1,4 @@
-from .type_t import T
+from ._type_t import T
 from typing import Callable, Collection, Iterator
 
 
